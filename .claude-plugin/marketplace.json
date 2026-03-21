@@ -1,0 +1,29 @@
+{
+  "name": "prolipa-plugins",
+  "owner": {
+    "name": "Javier Montaño",
+    "email": "javier@sofka.com.co"
+  },
+  "metadata": {
+    "description": "Prolipa editorial plugins — K-12 agentic editorial assistant for SOAP curriculum.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "scriba",
+      "source": "./scriba",
+      "description": "Asistente editorial agentico K-12 SOAP. 14 agentes, 24 skills, 37 comandos, 5 quality gates.",
+      "version": "1.0.0",
+      "author": {
+        "name": "JM Labs"
+      },
+      "license": "SEE LICENSE IN LICENSE",
+      "category": "editorial",
+      "tags": ["editorial", "educacion", "K-12", "prolipa", "curriculum"],
+      "keywords": [
+        "editorial", "educacion", "pedagogia", "neurociencia",
+        "K-12", "prolipa", "sinapsis", "curriculum", "textbooks"
+      ]
+    }
+  ]
+}
