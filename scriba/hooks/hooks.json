@@ -1,5 +1,17 @@
 {
   "hooks": {
-    "SessionStart": []
+    "SessionStart": [
+      {
+        "matcher": "startup|resume",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -lc 'printf \"%s\\n\" \"Scriba activo — asistente editorial agentico K-12 SOAP. Usa /scriba:menu para comandos y /scriba:init para inicializar proyecto. Evidence tags: [METODOLOGIA] [NEUROCIENCIA] [PEDAGOGIA] [INFERENCIA] [SUPUESTO].\"'",
+            "timeout": 5,
+            "statusMessage": "Loading Scriba"
+          }
+        ]
+      }
+    ]
   }
 }
